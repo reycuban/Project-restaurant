@@ -1,4 +1,218 @@
-h1 {
+html, body {
   font-family: Roboto;
-  color:blue;
 }
+
+/*Nav for links, you can delete this if is needed*/
+
+a.dropdown-item {
+  color: #747d8c;
+  transition: 0.2s ease-in;
+}
+
+a.dropdown-item:hover {
+  color: whitesmoke;
+  background-color: #F97F51;
+}
+
+/*--Jumbotron section--*/
+
+.jumbotron {
+  background: url(../hero.jpg) center center;
+  /*IF you read this, please update. No idead how to make responsive*/
+  color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*------main Header----*/
+
+h1.main-text {
+  font-size: 5em;
+  text-transform: uppercase;
+  color: ;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+p.sub-text {
+  color: #3d3d3d;
+  text-transform: capitalize;
+}
+
+/*---Buttons---*/
+
+.btn {
+  display: inline-block;
+  background: #cd6133;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all linear 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.btn:hover {
+  background: #F97F51;
+  color: whitesmoke;
+  -webkit-box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -6px) scale(1.1);
+  transform: translate(0px, -6px) scale(1.1);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/*================Contact =================*/
+
+.contact-info h2 {
+  font-family: Roboto, cursive;
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+.contact-info .footer-logo {
+  margin-bottom: 35px;
+}
+
+.contact-info .address {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-right: 15px
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-info.date li {
+  font-size: 18px;
+}
+
+.contact-info li i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.contact-info .event {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 3px 0;
+}
+
+.contact-info .event-date {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  text-align: center;
+  font-size: 14px;
+  height: 65px;
+  width: 65px;
+  border: 1px solid #e6e6e6;
+}
+
+.contact-info .event-date span {
+  display: block;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 35px;
+  margin-bottom: 3px;
+}
+
+.contact-info .event-info {
+  padding-left: 80px;
+}
+
+.contact-info .event-info h4 {
+  margin-bottom: 0;
+}
+
+/* Google Maps
+-------------------------------------------------- */
+
+#googlemaps {
+  width: 600;
+  height: 450;
+  text-align: center;
+}
+
+/*End of Google Maps
+-------------------------------------------------- */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  background-color: #f26522;
+  color: #fff;
+  padding: 40px 0 30px;
+  font-weight: 300;
+}
+
+/* End of Sticky footer styles
+-------------------------------------------------- *
+
+
+
+
+
+/*html {
+    background: whitesmoke;
+}
+
+.carousel-inner img {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      }
+
+h3, p {
+    font-family: Roboto;
+    display: grid;
+    justify-content: flex-start;
+}
+
+h3.text-3d {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 2px , 1px 0px 0px rgba(0,0,0,0.1);
+}
+
+
+
+.btn {
+  display: inline-block;
+  background:;
+  color:ghostwhite;
+  border: none;
+    font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.btn:hover {
+          background:#F79F1F;
+          color:#2d3436;
+  -webkit-box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}*/
