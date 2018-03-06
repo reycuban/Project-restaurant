@@ -1,4 +1,94 @@
-h1 {
-  font-family: Roboto;
-  color:blue;
-}
+                h1 {
+                    font-family: Roboto;
+                    color: blue;
+                }
+                /*================Contact =================*/
+                
+                .contact-info h2 {
+                    font-family: Roboto, cursive;
+                    font-size: 32px;
+                    margin-top: 8px;
+                    margin-bottom: 25px;
+                }
+                
+                .contact-info .footer-logo {
+                    margin-bottom: 35px;
+                }
+                
+                .contact-info .address {
+                    margin-top: 25px;
+                    margin-bottom: 20px;
+                }
+                
+                ul {
+                    padding-right: 15px
+                }
+                
+                .contact-info li {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+                
+                .contact-info.date li {
+                    font-size: 18px;
+                }
+                
+                .contact-info li i {
+                    font-size: 18px;
+                    margin-right: 10px;
+                }
+                
+                .contact-info .event {
+                    position: relative;
+                    overflow: hidden;
+                    margin-top: 20px;
+                    padding: 3px 0;
+                }
+                
+                .contact-info .event-date {
+                    position: absolute;
+                    left: 0;
+                    top: 0px;
+                    text-align: center;
+                    font-size: 14px;
+                    height: 65px;
+                    width: 65px;
+                    border: 1px solid #e6e6e6;
+                }
+                
+                .contact-info .event-date span {
+                    display: block;
+                    font-weight: 300;
+                    font-size: 42px;
+                    line-height: 35px;
+                    margin-bottom: 3px;
+                }
+                
+                .contact-info .event-info {
+                    padding-left: 80px;
+                }
+                
+                .contact-info .event-info h4 {
+                    margin-bottom: 0;
+                }
+                /* Google Maps
+-------------------------------------------------- */
+                
+                #googlemaps {
+                    width: 600;
+                    height: 450;
+                    text-align: center;
+                }
+                /*End of Google Maps
+-------------------------------------------------- */
+                /* Sticky footer styles
+-------------------------------------------------- */
+                
+                .footer {
+                    background-color: #f26522;
+                    color: #fff;
+                    padding: 40px 0 30px;
+                    font-weight: 300;
+                }
+                /* End of Sticky footer styles
+-------------------------------------------------- *
