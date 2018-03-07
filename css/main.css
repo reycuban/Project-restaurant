@@ -32,7 +32,7 @@ a.dropdown-item:hover {
 h1.main-text {
   font-size: 5em;
   text-transform: uppercase;
-  color: ;
+  color: #ffffff;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -138,17 +138,7 @@ ul {
   margin-bottom: 0;
 }
 
-/* Google Maps
--------------------------------------------------- */
 
-#googlemaps {
-  width: 600;
-  height: 450;
-  text-align: center;
-}
-
-/*End of Google Maps
--------------------------------------------------- */
 
 /* Sticky footer styles
 -------------------------------------------------- */
