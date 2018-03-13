@@ -3,6 +3,7 @@
             font-family: Roboto;
         }
 
+
         .image {
             background: url(../Images/hero.jpg) center center;
         }
@@ -21,6 +22,10 @@
             font-size: 1.2em;
         }
 
+
+        /*Nav for links, you can delete this if is needed*/
+        
+
         a.dropdown-item {
             color: #747d8c;
             transition: 0.2s ease-in;
@@ -33,6 +38,7 @@
         /*--Jumbotron section--*/
         
         .jumbotron {
+
             /*background: url(../Images/hero.jpg) center center;*/
             /*IF you read this, please update. No idead how to make responsive*/
             background-color: transparent;
@@ -122,9 +128,6 @@
             float: right;
             margin-left: .3em;
         }
-        /*================Specialty==============*/
-        
-
 
         /*================Footer=================*/
         
