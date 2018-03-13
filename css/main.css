@@ -2,8 +2,30 @@
         body {
             font-family: Roboto;
         }
+
+
+        .image {
+            background: url(../Images/hero.jpg) center center;
+        }
+        /*Nav for links, you can delete this if is needed*/
+        .navbar {
+            background-color: transparent;
+        }
+
+        #navbarSupportedContent {
+            text-align: center;
+        }
+
+
+        a.p-2 {
+            color: white;
+            font-size: 1.2em;
+        }
+
+
         /*Nav for links, you can delete this if is needed*/
         
+
         a.dropdown-item {
             color: #747d8c;
             transition: 0.2s ease-in;
@@ -16,11 +38,13 @@
         /*--Jumbotron section--*/
         
         .jumbotron {
-            background: url(../hero.jpg) center center;
+
+            /*background: url(../Images/hero.jpg) center center;*/
             /*IF you read this, please update. No idead how to make responsive*/
+            background-color: transparent;
             color: white;
-            background-attachment: fixed;
-            background-size: cover;
+            /*background-attachment: fixed;
+            background-size: cover;*/
             min-height: 500px;
             margin-top: 0px;
             margin-bottom: 0px;
@@ -104,6 +128,7 @@
             float: right;
             margin-left: .3em;
         }
+
         /*================Footer=================*/
         
         .footer {
