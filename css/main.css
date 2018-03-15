@@ -2,6 +2,34 @@ html, body {
   font-family: Roboto;
 }
 
+.image {
+  background: url(../Images/hero.jpg) center center;
+}
+
+/*Nav for links, you can delete this if is needed*/
+
+.navbar {
+  background-color: transparent;
+}
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+a.p-2 {
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+a.p-2:hover {
+  color: #F97F51;
+  border-bottom: 2px solid;
+  border-top-left-radius: 3px;
+}
+
 /*Nav for links, you can delete this if is needed*/
 
 a.dropdown-item {
@@ -17,11 +45,12 @@ a.dropdown-item:hover {
 /*--Jumbotron section--*/
 
 .jumbotron {
-  background: url(../hero.jpg) center center;
+  /*background: url(../Images/hero.jpg) center center;*/
   /*IF you read this, please update. No idead how to make responsive*/
+  background-color: transparent;
   color: white;
-  background-attachment: fixed;
-  background-size: cover;
+  /*background-attachment: fixed;
+    background-size: cover;*/
   min-height: 500px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -30,7 +59,9 @@ a.dropdown-item:hover {
 /*------main Header----*/
 
 h1.main-text {
-  font-size: 5em;
+  font-family: 'Carter One', cursive;
+  /* you can change back to Roboto if u like*/
+  font-size: 3em;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
@@ -39,6 +70,33 @@ h1.main-text {
 p.sub-text {
   color: #3d3d3d;
   text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #F97F51;
+}
+
+.next-text {
+  font-family: 'Carter One', cursive;
+  font-size: 3rem;
+  color: #F97F51;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h5 {
+  font-family: 'Carter One', cursive;
+  color: #485460;
+}
+
+hr {
+  width: 40%;
+}
+
+.backGroundFondo {
+  background: whitesmoke;
 }
 
 /*---Buttons---*/
@@ -58,9 +116,7 @@ p.sub-text {
 .btn:hover {
   background: #F97F51;
   color: whitesmoke;
-
   box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-
   transform: translate(0px, -6px) scale(1.1);
 }
 
@@ -68,80 +124,62 @@ p.sub-text {
   outline: none;
 }
 
-/*================Contact =================*/
+/*Cards*/
+
+.card-img-top {
+  filter: grayscale(0);
+  transition: 0.5s ease;
+}
+
+img.card-img-top:hover {
+  overflow: auto;
+  filter: grayscale(100%);
+}
+
+/*================Contact=================*/
 
 .contact-info h2 {
-  font-family: Roboto, cursive;
+  font-family: cursive;
   font-size: 32px;
   margin-top: 8px;
   margin-bottom: 25px;
 }
 
-.contact-info .footer-logo {
-  margin-bottom: 35px;
-}
-
-.contact-info .address {
-  margin-top: 25px;
+.contact-info {
+  margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 18px;
+  padding: 3px 0;
+  position: relative;
+  overflow: hidden;
 }
 
-ul {
-  padding-right: 15px
+.info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-info li {
   margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.contact-info.date li {
   font-size: 18px;
 }
 
-.contact-info li i {
-  font-size: 18px;
-  margin-right: 10px;
+a {
+  background: transparent;
 }
 
-.contact-info .event {
-  position: relative;
-  overflow: hidden;
-  margin-top: 20px;
-  padding: 3px 0;
+.left {
+  float: left;
+  margin-right: .3em;
 }
 
-.contact-info .event-date {
-  position: absolute;
-  left: 0;
-  top: 0px;
-  text-align: center;
-  font-size: 14px;
-  height: 65px;
-  width: 65px;
-  border: 1px solid #e6e6e6;
+.right {
+  float: right;
+  margin-left: .3em;
 }
 
-.contact-info .event-date span {
-  display: block;
-  font-weight: 300;
-  font-size: 42px;
-  line-height: 35px;
-  margin-bottom: 3px;
-}
-
-.contact-info .event-info {
-  padding-left: 80px;
-}
-
-.contact-info .event-info h4 {
-  margin-bottom: 0;
-}
-
-
-
-/* Sticky footer styles
--------------------------------------------------- */
+/*================Footer=================*/
 
 .footer {
   background-color: #f26522;
@@ -150,5 +188,4 @@ ul {
   font-weight: 300;
 }
 
-/* End of Sticky footer styles
--------------------------------------------------- *
+/*================/Footer=================*/
